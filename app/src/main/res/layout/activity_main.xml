@@ -12,11 +12,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/purple_500"
-        android:textSize="40sp"
-        android:textStyle="bold"
         android:text="Log in"
-       />
+        android:textColor="#3345AA"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/username_input"
@@ -38,7 +37,9 @@
         android:id="@+id/Submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit" />
+        android:fontFamily="sans-serif-condensed"
+        android:text="Submit"
+        android:textColorLink="@color/purple_700" />
 
     <ImageView
         android:id="@+id/imageView2"
