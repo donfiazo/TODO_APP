@@ -42,7 +42,7 @@
         android:textColorLink="@color/purple_700" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/developer_photo"
         android:layout_width="100dp"
         android:layout_height="120dp"
         android:src="@drawable/eddie_passport" />
