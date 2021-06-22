@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/purple_500"
         android:textSize="40sp"
         android:textStyle="bold"
         android:text="Log in"
@@ -39,5 +39,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:src="@drawable/eddie_passport" />
 
 </LinearLayout>
